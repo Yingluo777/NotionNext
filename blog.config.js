@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Ying Luo', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '可观测宇宙的半径是10的26次方米,小红书@罗罗的博物馆', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '独立摄影师, 莱斯特大学博物馆研究 MA., ICOM UK Member，藏品管理与研究, 曾就职于 Natural History Museum, London｜Royal Botanic Gardens, Kew, // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://yingvision.me', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Photography', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
